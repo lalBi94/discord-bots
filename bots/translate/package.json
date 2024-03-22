@@ -1,0 +1,23 @@
+{
+  "name": "translate",
+  "version": "0.0.1",
+  "description": "Simply translate bot.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "translate",
+    "deepl",
+    "internationnal"
+  ],
+  "author": "General Zod (lalBi94)",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}

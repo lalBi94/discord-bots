@@ -1,0 +1,24 @@
+{
+  "name": "lobby",
+  "version": "0.0.1",
+  "description": "Simple party creation.",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "lobby",
+    "bot",
+    "discord",
+    "voice",
+    "vocal",
+    "room"
+  ],
+  "author": "General Zod (lalBi94)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "compatibility",
+  "version": "0.0.1",
+  "description": "Check your compatibility with someone !",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "compatibility",
+    "fast",
+    "love"
+  ],
+  "author": "General Zod (lalBi94)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}

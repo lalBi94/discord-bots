@@ -1,0 +1,14 @@
+{
+  "name": "dscd-plyg",
+  "version": "0.0.1",
+  "description": "My own container of bots.",
+  "scripts": {
+    "all": "concurrently \"cd bots/lobby;npm start\" \"cd bots/compatibility;npm start\" \"cd bots/translate;npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

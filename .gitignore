@@ -1,0 +1,6 @@
+# Destroy * Node Modules
+node_modules
+bots/**/node_modules
+
+# Destroy * environmental space
+bots/**/.env
