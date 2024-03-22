@@ -1,13 +1,17 @@
 {
-  "name": "dscd-plyg",
+  "name": "discord-bots",
   "version": "0.0.1",
   "description": "My own container of bots.",
   "scripts": {
     "all": "concurrently \"cd bots/lobby;npm start\" \"cd bots/compatibility;npm start\" \"cd bots/translate;npm start\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "bots",
+    "discord",
+    "default"
+  ],
+  "author": "General Zod (lalBi94)",
+  "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
