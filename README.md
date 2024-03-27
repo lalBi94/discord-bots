@@ -6,7 +6,7 @@ It's going to take a while, but it's worth it.
 
 First, make sure you have `git clone` the project.
 Then browse the folders in `bots/` to modify and create the necessary `.env` files. The `.env-ex` are there to help you.
-Now go to Discord's [Developer Portal](https://discord.com/developers/applications). Create an equivalent number of bots to the number of folders in `bots/` by renaming them. Now look at the `main.js` of all the bots to see the permissions you need to grant them (Warning! They're almost all different). Dont forget to `pnpm install` in the whole of project !
+Now go to Discord's [Developer Portal](https://discord.com/developers/applications). Create an equivalent number of bots to the number of folders in `bots/` by renaming them. Now look at the `main.js` of all the bots to see the permissions you need to grant them (Warning! They're almost all different).
 
 ## Startup
 

@@ -1,0 +1,22 @@
+{
+  "name": "spy",
+  "version": "0.0.1",
+  "description": "Spy another guy in the server.",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "spy",
+    "bot",
+    "info",
+    "track"
+  ],
+  "author": "General Zod (lalBi94)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "My own container of bots.",
   "scripts": {
-    "all": "concurrently \"cd bots/lobby;npm start\" \"cd bots/compatibility;npm start\" \"cd bots/translate;npm start\""
+    "all": "concurrently \"pnpm install\" \"cd bots/lobby;pnpm install;pnpm start\" \"cd bots/compatibility;pnpm install;npm start\" \"cd bots/translate;pnpm install;pnpm start\" \"cd bots/spy;pnpm install;pnpm start\""
   },
   "keywords": [
     "bots",
